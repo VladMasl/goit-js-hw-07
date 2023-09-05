@@ -24,7 +24,10 @@ function listGalleryItems(galleryItems) {
 }
 
 new SimpleLightbox(".gallery__link ", {
+  
   captionsData: "alt",
+
   captionDelay: "250",
+
   enableKeyboard: "true",
 });
